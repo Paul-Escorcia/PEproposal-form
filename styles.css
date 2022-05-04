@@ -1,0 +1,118 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234, 249, 255);
+}
+h1, h2{
+    text-align: center;
+    color: rgb(29, 96, 151);
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: 3px double rgb(29, 96, 151);
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.companyInfo, .clientInfo{
+    width: 43.4%;
+    display: inline-block;
+}
+
+.companyInfo{
+    padding-top: 20px;
+}
+.clientInfo{
+    padding-top: 42px;
+}
+label{
+    display: inline-block;
+    font-weight: bold;
+}
+
+label:nth-child(n+2){
+    text-indent: 10px;
+}
+
+.companyInfo input{
+    width: 30%;
+}
+
+textarea{
+    width:100%;
+    height: 300px; 
+}
+
+#paymentInfo{
+    width: 30%;
+}
+
+
+.finalInfo label:nth-child(n+2){
+    text-indent: 0;
+}
+
+#paymentInfo2{
+    width: 70%;
+}
+
+.otherInfo, .signInfo{
+    margin: auto;
+    text-align:center;
+}
+
+.otherInfo ul > li {
+    display: inline-block;
+}
+
+.signInfo ul > li {
+    display: inline-block;
+}
+
+#sign1, #sign2{
+    width: 300px;
+}
+.signInfo ul > li:nth-child(n+2) {
+    padding-left: 10px;
+}
+
+.descInfo,.signInfo{
+    page-break-before: always;
+}
+
+#arch{
+    width: 300px;
+}
+
+
+@media print{
+    .companyInfo, .clientInfo{
+        width: 83%;
+    }
+
+    .companyInfo{
+        padding-top: auto;
+    }
+    .clientInfo{
+        padding-top: auto;
+    }
+}
+
+@media screen and (min-width:1921px) {
+    
+    .companyInfo, .clientInfo{
+        width: 46.344%;
+    }
+}
+
+@media screen and (max-width:1650px) {
+    
+    .companyInfo, .clientInfo{
+        width:42.2%;
+    }
+}

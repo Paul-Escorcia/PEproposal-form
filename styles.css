@@ -102,11 +102,10 @@ textarea{
         padding-top: auto;
     }
     textarea{
-        height: 500px; 
+        height: 485px; 
     }
     #paymentInfo2{
         width: 100%;
-        height: 50px;
     }
 
 }

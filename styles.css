@@ -57,7 +57,7 @@ textarea{
     text-indent: 0;
 }
 
-#paymentInfo2{
+#paymentInfo2, #sumbitInfo{
     width: 70%;
 }
 
@@ -101,6 +101,14 @@ textarea{
     .clientInfo{
         padding-top: auto;
     }
+    textarea{
+        height: 600px; 
+    }
+    #paymentInfo2{
+        width: 100%;
+        height: 100px;
+    }
+
 }
 
 @media screen and (min-width:1921px) {

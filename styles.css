@@ -107,6 +107,10 @@ textarea{
     #paymentInfo2{
         width: 100%;
     }
+    #cname, #cstreet, #clname, #clstreet
+    {
+        width: 100%;
+    }
 
 }
 

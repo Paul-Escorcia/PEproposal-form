@@ -10,8 +10,9 @@
 <body>
     <form id ="form" enctype="text/plain">
         <h1 class="heading">Proposal</h1>
-        <fieldset class= "companyInfo">
-            <ul class="companyList">
+            <fieldset class= "companyInfo">
+                <h3 class="pageOf" id="pg1">Page 1 of 3</h3>
+                <ul class="companyList">
                 <li><label for="cname">Company Name:</label>
                 <input type="text" id="cname"></li>
                 <li><label for="cstreet"> Company Street Address:</label>
@@ -26,10 +27,10 @@
                 <input type="text" id="cTN"></li>
                 <li><label for="cROC">Company ROC:</label>
                 <input type="text" id="cROC"></li>
-            </ul>
-        </fieldset>
-        <fieldset class= "clientInfo">
-            <ul class="clientList">
+                </ul>
+            </fieldset>
+            <fieldset class= "clientInfo">
+                <ul class="clientList">
                 <li><label for="clname">Client Name:</label>
                 <input type="text" id="clname"></li>
                 <li><label for="clstreet">Client Street Address:</label>
@@ -42,43 +43,45 @@
                 <input type="text" id="clzip"></li>
                 <li><label for="clTN">Client Telephone Number:</label>
                 <input type="text" id="clTN"></li>
-            </ul>
-        </fieldset>
-        <fieldset class="otherInfo">
-            <ul class="otherList">
-                <li><label for="date">Current Date:</label>
-                <input type="text" id="date"></li>
-                <li><label for="pdate">Date of Plans:</label>
-                <input type="text" id="pdate"></li>
-                <li><label for="arch">Architect:</label>
-                <input type="text" id="arch"></li>
-            </ul>
-        </fieldset>
-        <fieldset class="descInfo">
-            <label for="jobdesc">Enter the job description, specifications, and estimates:</label><br>
-            <textarea id="message" name="message">We hereby submit specifications and estimates for:</textarea>
-        </fieldset>
-        <fieldset class="finalInfo">
-            <label for="paymentInfo">We propose hereby to furnish material and labor-complete in accordance with the above specifications for the sum of:</label>
-            <input type="text" id="paymentInfo"><br>
-            <label for="paymentInfo2">Payments to be made as follows:</label>
-            <input type="text" id="paymentInfo2">
-            <p>Any alternation or deviation from above specification involving extra costs will be executed only upon written order, and will become an extra charge over and above the estimate. All agreements contingent upon strikes, accidents, or delays beyond our control</p>
-            <label for="submitInfo">Respectfully Submitted:</label>
-            <input type="text" id="sumbitInfo">
-        </fieldset>
-        <fieldset class="signInfo">
-            <h2>Acceptance of Proposal</h2>
-            <p>The above prices, specifications, and condidtions are satisfactory and are hereby accepted. You are authorized to do the work specifed. Payments will be made as outlined above.</p>
-            <ul>
-                <li><label for="doa">Date of Acceptance:</label>
-                <input type="text" id="doa"></li>
-                <li><label for="sign1">Signature:</label>
-                <input type="text" id="sign1"></li>
-                <li><label for="sign2">Signature:</label>
-                <input type="text" id="sign2"></li>
-            </ul>
-        </fieldset>
+                </ul>
+            </fieldset>
+            <fieldset class="otherInfo">
+                <ul class="otherList">
+                    <li><label for="date">Current Date:</label>
+                    <input type="text" id="date"></li>
+                    <li><label for="pdate">Date of Plans:</label>
+                    <input type="text" id="pdate"></li>
+                    <li><label for="arch">Architect:</label>
+                    <input type="text" id="arch"></li>
+                </ul>
+            </fieldset>
+            <fieldset class="descInfo">
+                <h3 class="pageOf" id="pg2">Page 2 of 3</h3>
+                <label for="jobdesc">Enter the job description, specifications, and estimates:</label><br>
+                <textarea id="message" name="message">We hereby submit specifications and estimates for:</textarea>
+            </fieldset>
+            <fieldset class="finalInfo">
+                <label for="paymentInfo">We propose hereby to furnish material and labor-complete in accordance with the above specifications for the sum of:</label>
+                <input type="text" id="paymentInfo"><br>
+                <label for="paymentInfo2">Payments to be made as follows:</label>
+                <input type="text" id="paymentInfo2">
+                <p>Any alternation or deviation from above specification involving extra costs will be executed only upon written order, and will become an extra charge over and above the estimate. All agreements contingent upon strikes, accidents, or delays beyond our control</p>
+                <label for="submitInfo">Respectfully Submitted:</label>
+                <input type="text" id="sumbitInfo">
+            </fieldset>
+            <fieldset class="signInfo">
+                <h2>Acceptance of Proposal</h2>
+                <h3 class="pageOf" id="pg1">Page 3 of 3</h3>
+                <p>The above prices, specifications, and condidtions are satisfactory and are hereby accepted. You are authorized to do the work specifed. Payments will be made as outlined above.</p>
+                <ul>
+                    <li><label for="doa">Date of Acceptance:</label>
+                    <input type="text" id="doa"></li>
+                    <li><label for="sign1">Signature:</label>
+                    <input type="text" id="sign1"></li>
+                    <li><label for="sign2">Signature:</label>
+                    <input type="text" id="sign2"></li>
+                </ul>
+            </fieldset>
     </form>
 </body>
 </html>

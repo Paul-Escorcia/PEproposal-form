@@ -27,7 +27,7 @@ fieldset{
     padding-top: .8%;
 }
 .clientInfo{
-    padding-top: 3.35%;
+    padding-top: 1.65%;
 }
 
 label{
@@ -85,7 +85,7 @@ textarea{
     padding-left: 10px;
 }
 
-.descInfo,.signInfo{
+#pg2, #pg3{
     page-break-before: always;
 }
 
@@ -94,7 +94,7 @@ textarea{
 }
 
 h3{
-    visibility: hidden;
+    display: none;
     text-align: center;
 }
 
@@ -121,11 +121,11 @@ h3{
     }
 
     h3{
-        visibility: visible;
+        display: block;
     }
 
 }
-/*
+
 @media screen and (min-width:1921px) {
     
     .companyInfo, .clientInfo{
@@ -138,4 +138,4 @@ h3{
     .companyInfo, .clientInfo{
         width:42.2%;
     }
-}*/
+}
